@@ -16,28 +16,17 @@ li {
   margin: auto;
   text-align: center;
 }
+
 .nav-container {
   position: absolute;
   top: 100px;
   width: 100%;
 }
+
 nav {
   display: inline-block;
   border-radius: 6px;
-  background: linear-gradient(
-    to top,
-    rgb(115, 115, 115),
-    rgb(110, 110, 110),
-    rgb(106, 106, 106),
-    rgb(98, 98, 98),
-    rgb(94, 94, 94),
-    rgb(116, 116, 116),
-    rgb(119, 119, 119),
-    rgb(122, 122, 122),
-    rgb(125, 125, 125),
-    rgb(127, 127, 127),
-    rgb(130, 130, 130)
-  );
+  background: linear-gradient(to top, rgb(115, 115, 115), rgb(110, 110, 110), rgb(106, 106, 106), rgb(98, 98, 98), rgb(94, 94, 94), rgb(116, 116, 116), rgb(119, 119, 119), rgb(122, 122, 122), rgb(125, 125, 125), rgb(127, 127, 127), rgb(130, 130, 130));
 }
 
 nav ul {
@@ -53,15 +42,42 @@ nav li {
   vertical-align: middle;
   border-right: 1px solid #5e5e5e;
 }
+
+.second-col li,
+.second-col img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 nav li:last-child {
   border-right: none;
 }
+
 nav a {
   display: inline-block;
   padding: 0.5em 3em;
   text-decoration: none;
   color: white;
   font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 30px;
+  color: #6e6e6e;
+}
+
+.second-col a {
+  border-right: 1px solid #ccc;
+  padding-right: 1em;
+  margin-right: 1em;
 }
 
 nav a:hover {
@@ -71,6 +87,7 @@ nav a:hover {
 .last-list {
   position: relative;
 }
+
 .search-input {
   background-color: transparent;
   line-height: 20px;
@@ -81,13 +98,16 @@ nav a:hover {
   padding-left: 30px;
   width: 70px;
 }
+
 .search-input:focus {
   outline: none;
   background-color: white;
 }
+
 .search-input:focus + i {
   color: #5e5e5e;
 }
+
 .search-icon {
   position: absolute;
   left: 20px;
@@ -98,6 +118,7 @@ nav a:hover {
   width: 16px;
   vertical-align: middle;
 }
+
 .below-nav {
   position: absolute;
   width: 100%;
@@ -105,21 +126,25 @@ nav a:hover {
   text-align: center;
   margin: auto;
 }
+
 .your-verse-title {
   display: inline-block;
   margin: auto;
 }
+
 .your-verse-title > img {
   display: inline-block;
   width: 80%;
   margin-bottom: -15px;
 }
+
 .second-row {
   display: grid;
   margin-top: 2px;
   grid-gap: 2px;
   grid-template-columns: repeat(4, 1fr);
 }
+
 .col-1,
 .col-2,
 .col-3,
@@ -128,6 +153,7 @@ nav a:hover {
   background-size: cover;
   height: 200px;
 }
+
 .col-1 {
   background-image: url("../images/promo_iphone5s.jpg");
 }
@@ -154,34 +180,6 @@ footer {
   margin-left: 200px;
 }
 
-footer p,
-a {
-  font-size: 10px;
-  line-height: 30px;
-  color: #6e6e6e;
-}
-
-footer a {
-  text-decoration: none;
-  padding-right: 1em;
-  margin-right: 1em;
-  border-right: 1px solid #ccc;
-  color: #08c;
-}
-
 footer a:hover {
   text-decoration: underline;
-}
-
-.right-aligned {
-  text-align: right;
-}
-
-.right-aligned p {
-  text-align: left;
-}
-
-.second-col li {
-  display: inline-block;
-  vertical-align: middle;
 }
