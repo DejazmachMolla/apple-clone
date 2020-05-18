@@ -20,10 +20,8 @@ li {
   position: absolute;
   top: 100px;
   width: 100%;
-  border: 1px solid magenta;
 }
 nav {
-  border: 1px solid yellow;
   display: inline-block;
   border-radius: 6px;
   background: linear-gradient(
@@ -113,4 +111,75 @@ nav a:hover {
   display: inline-block;
   width: 80%;
   margin-bottom: -15px;
+}
+.second-row {
+  display: grid;
+  margin-top: 2px;
+  grid-gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  display: inline-block;
+  background-size: cover;
+  height: 200px;
+}
+.col-1 {
+  background-image: url("/images/promo_iphone5s.jpg");
+}
+
+.col-2 {
+  background-image: url("/images/promo_iphone5c.jpg");
+}
+
+.col-3 {
+  background-image: url("/images/promo_30_years.jpg");
+}
+
+.col-4 {
+  background-image: url("/images/promo_supplier_responsibility.jpg");
+}
+
+footer {
+  display: grid;
+  padding: 2em 0;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.first-col > * {
+  margin-left: 200px;
+}
+
+footer p,
+a {
+  font-size: 10px;
+  line-height: 30px;
+  color: #6e6e6e;
+}
+
+footer a {
+  text-decoration: none;
+  padding-right: 1em;
+  margin-right: 1em;
+  border-right: 1px solid #ccc;
+  color: #08c;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.right-aligned {
+  text-align: right;
+}
+
+.right-aligned p {
+  text-align: left;
+}
+
+.second-col li {
+  display: inline-block;
+  vertical-align: middle;
 }
