@@ -65,7 +65,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.3);
 }
 
 .last-list {
@@ -79,6 +79,7 @@ nav a:hover {
   margin-right: 10px;
   border: 1px solid #5e5e5e;
   padding-left: 30px;
+  width: 70px;
 }
 .search-input:focus {
   outline: none;
@@ -94,7 +95,8 @@ nav a:hover {
 }
 
 .logo {
-  width: 12px;
+  width: 16px;
+  vertical-align: middle;
 }
 .below-nav {
   position: absolute;
