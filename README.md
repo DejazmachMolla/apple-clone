@@ -1,10 +1,10 @@
 # Positioning and Floating element
 
-> This project is a clone of Newyork_times home page.
+> This project is a clone of the old www.apple.com home page.
 
 ## Navigation bar
 
-- The navbar the logo, some buttons and a search field
+- The navbar contains the logo, some buttons and a search field
 
 ## Header
 
