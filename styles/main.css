@@ -11,7 +11,7 @@ li {
   position: relative;
   width: 100%;
   height: 85vh;
-  background: url("images/your_verse_hero.jpg") 50% 100% no-repeat;
+  background: url("../images/your_verse_hero.jpg") 50% 100% no-repeat;
   background-size: cover;
   margin: auto;
   text-align: center;
@@ -129,19 +129,19 @@ nav a:hover {
   height: 200px;
 }
 .col-1 {
-  background-image: url("/images/promo_iphone5s.jpg");
+  background-image: url("../images/promo_iphone5s.jpg");
 }
 
 .col-2 {
-  background-image: url("/images/promo_iphone5c.jpg");
+  background-image: url("../images/promo_iphone5c.jpg");
 }
 
 .col-3 {
-  background-image: url("/images/promo_30_years.jpg");
+  background-image: url("../images/promo_30_years.jpg");
 }
 
 .col-4 {
-  background-image: url("/images/promo_supplier_responsibility.jpg");
+  background-image: url("../images/promo_supplier_responsibility.jpg");
 }
 
 footer {
