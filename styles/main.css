@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
 li {
   list-style: none;
 }
@@ -26,7 +30,7 @@ li {
 nav {
   display: inline-block;
   border-radius: 6px;
-  background: linear-gradient(to top, rgb(115, 115, 115), rgb(110, 110, 110), rgb(106, 106, 106), rgb(98, 98, 98), rgb(94, 94, 94), rgb(116, 116, 116), rgb(119, 119, 119), rgb(122, 122, 122), rgb(125, 125, 125), rgb(127, 127, 127), rgb(130, 130, 130));
+  background: linear-gradient(to top, rgb(115, 115, 115) 45%, black 5%, rgb(116, 116, 116) 35%, rgb(130, 130, 130) 15%);
 }
 
 nav ul {
@@ -58,7 +62,7 @@ nav a {
   padding: 0.5em 3em;
   text-decoration: none;
   color: white;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 footer a {
@@ -78,6 +82,13 @@ footer p {
   border-right: 1px solid #ccc;
   padding-right: 1em;
   margin-right: 1em;
+}
+
+.your-verse-link > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100;
 }
 
 nav a:hover {
@@ -104,6 +115,10 @@ nav a:hover {
   background-color: white;
 }
 
+.your-verse-link > a > i {
+  font-size: 30px;
+}
+
 .search-input:focus + i {
   color: #5e5e5e;
 }
@@ -111,7 +126,7 @@ nav a:hover {
 .search-icon {
   position: absolute;
   left: 20px;
-  top: 4px;
+  top: 5px;
 }
 
 .logo {
@@ -136,6 +151,18 @@ nav a:hover {
   display: inline-block;
   width: 80%;
   margin-bottom: -15px;
+}
+
+.your-verse-link * {
+  vertical-align: middle;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.your-verse-link > a:hover {
+  text-decoration: underline;
 }
 
 .second-row {
@@ -174,13 +201,8 @@ footer {
   display: grid;
   padding: 2em 0;
   grid-template-columns: repeat(2, 1fr);
-  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
 }
 
 .first-col > * {
   margin-left: 200px;
-}
-
-footer a:hover {
-  text-decoration: underline;
 }
