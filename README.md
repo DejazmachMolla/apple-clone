@@ -1,7 +1,7 @@
 # Positioning and Floating element
 
 > This project is a clone of the old www.apple.com home page.
-> ![screenshot](https://imgur.com/H6JcW0N)
+> ![screenshot](https://imgur.com/H6JcW0N.png)
 ## Navigation bar
 
 - The navbar contains the logo, some buttons and a search field
