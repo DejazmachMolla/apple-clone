@@ -44,7 +44,6 @@ nav li {
   display: inline-block;
   margin-right: -5px;
   vertical-align: middle;
-  border-right: 1px solid #5e5e5e;
 }
 
 .second-col li,
@@ -53,8 +52,8 @@ nav li {
   vertical-align: middle;
 }
 
-nav li:last-child {
-  border-right: none;
+nav li:not(:last-child) {
+  border-right: 1px solid #5e5e5e;
 }
 
 nav a {
@@ -79,7 +78,6 @@ footer p {
 }
 
 .second-col a {
-  border-right: 1px solid #ccc;
   padding-right: 1em;
   margin-right: 1em;
 }
@@ -163,6 +161,10 @@ footer a:hover {
 
 .your-verse-link > a:hover {
   text-decoration: underline;
+}
+
+.second-col li:not(:last-child) a {
+  border-right: 1px solid #ccc;
 }
 
 .second-row {
