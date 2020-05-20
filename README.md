@@ -1,12 +1,23 @@
 # Positioning and Floating element
 
-> This project is a clone of Newyork_times home page.
-
+> This project is a clone of the [Old Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) home page.
+> ![screenshot](https://imgur.com/H6JcW0N.png)
 ## Navigation bar
 
-- The navbar the logo, some buttons and a search field
+- The navbar contains the logo, some buttons and a search field
+- All of them have a similar gradient effect
+- The links take adifferent gradient on hover than their unhovered state but keeps the texture of the unhovered state
 
-## Header
+## Main Body
+
+- The main body consists of a stretching jambo background image followed by a row of 4 blocks with background images
+- The jambo background image has some transparent images and a link on top of it
+
+## Footer
+
+- The footer is a 2 column grid
+- The left column contains two paragraphs htat are a little far from their left edge and are still aligned to the left
+- The right colun contains links separated by a border
 
 ## Built With
 

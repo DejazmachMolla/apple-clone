@@ -1,0 +1,206 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.jumbo {
+  position: relative;
+  width: 100%;
+  height: 85vh;
+  background: url("../images/your_verse_hero.jpg") 50% 100% no-repeat;
+  background-size: cover;
+  margin: auto;
+  text-align: center;
+}
+
+.nav-container {
+  position: absolute;
+  top: 100px;
+  width: 100%;
+}
+
+nav {
+  display: inline-block;
+  border-radius: 6px;
+  background: linear-gradient(to top, rgb(115, 115, 115) 45%, black 5%, rgb(116, 116, 116) 35%, rgb(130, 130, 130) 15%);
+}
+
+nav ul {
+  width: auto;
+  color: white;
+  padding: 0 1em;
+}
+
+nav li {
+  margin: 0;
+  display: inline-block;
+  margin-right: -5px;
+  vertical-align: middle;
+}
+
+.second-col li,
+.second-col img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+nav li:not(:last-child) {
+  border-right: 1px solid #5e5e5e;
+}
+
+nav a {
+  display: inline-block;
+  padding: 0.5em 2.5em;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+  font-size: 10px;
+  line-height: 30px;
+}
+
+footer p {
+  font-size: 10px;
+  line-height: 30px;
+  color: #6e6e6e;
+}
+
+.second-col a {
+  padding-right: 1em;
+  margin-right: 1em;
+}
+
+.your-verse-link > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+nav a:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.last-list {
+  position: relative;
+}
+
+.search-input {
+  background-color: transparent;
+  line-height: 20px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid #5e5e5e;
+  padding-left: 30px;
+  width: 70px;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: white;
+}
+
+.your-verse-link > a > i {
+  font-size: 30px;
+}
+
+.search-input:focus + i {
+  color: #5e5e5e;
+}
+
+.search-icon {
+  position: absolute;
+  left: 20px;
+  top: 5px;
+}
+
+.logo {
+  width: 16px;
+  vertical-align: middle;
+}
+
+.below-nav {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+  text-align: center;
+  margin: auto;
+}
+
+.your-verse-title {
+  display: inline-block;
+  margin: auto;
+}
+
+.your-verse-title > img {
+  display: inline-block;
+  width: 80%;
+  margin-bottom: -15px;
+}
+
+.your-verse-link * {
+  vertical-align: middle;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+.your-verse-link > a:hover {
+  text-decoration: underline;
+}
+
+.second-col li:not(:last-child) a {
+  border-right: 1px solid #ccc;
+}
+
+.second-row {
+  display: grid;
+  margin-top: 2px;
+  grid-gap: 2px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.col-1,
+.col-2,
+.col-3,
+.col-4 {
+  display: inline-block;
+  background-size: cover;
+  height: 200px;
+}
+
+.col-1 {
+  background-image: url("../images/promo_iphone5s.jpg");
+}
+
+.col-2 {
+  background-image: url("../images/promo_iphone5c.jpg");
+}
+
+.col-3 {
+  background-image: url("../images/promo_30_years.jpg");
+}
+
+.col-4 {
+  background-image: url("../images/promo_supplier_responsibility.jpg");
+}
+
+footer {
+  display: grid;
+  padding: 2em 4em;
+  grid-template-columns: repeat(2, 1fr);
+}
