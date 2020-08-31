@@ -2,6 +2,11 @@
 
 > This project is a clone of the [Old Apple](https://web.archive.org/web/20140301004610/http://www.apple.com/) home page.
 > ![screenshot](https://imgur.com/H6JcW0N.png)
+
+## Live Demo
+
+[Live Demo Link](https://dejazmachmolla.github.io/apple-clone/)
+
 ## Navigation bar
 
 - The navbar contains the logo, some buttons and a search field
